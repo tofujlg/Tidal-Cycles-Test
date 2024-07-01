@@ -1,0 +1,32 @@
+d1 $ sound "909 909 909 909"
+d2 $ sound "bd cp"
+d2 $ sound "cp [] [cp cp]"
+d3 $ sound "[hh hh hh hh hh hh]*2"
+d3 silence
+
+d4 $ s "[808 808 808]*2"
+
+d5 $ n "c'maj e'min" # s "supermandolin"
+d5 silence
+d6 $ n "c'major7'ii" # s "supermandolin"
+d6 silence
+
+
+d1 $ n "<c a f g>"
+  # sound "supermandolin"
+  
+d5 $ s "[arpy:0 arpy:1 arpy:2]"
+d5 $ s "[arpy:0 arpy:1 arpy:2]*4"
+d5 silence
+
+d5 $ s "arpy:5*44"*4
+
+d5 silence
+
+d7 $ n "c'maj"
+  # sound "supermandolin"
+  # legato 2
+
+d8 $ n "0 0 [2 0] [2 3]" # sound "feel" # speed 1.5
+
+hush
